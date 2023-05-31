@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="rf.css">
+</head>
+<body>
+    <header>
+        <h1>STUDENT ENROLLMENT FORM</h1>
+    </header>
+    <div class="container">
+    <form action="">
+        <p>Name</p>
+        <input type="text" id="name" placeholder="xyz">
+        <p>Email</p>
+        <input type="email" id="email" placeholder="xyz@xyz.in">
+        <p>Website</p>
+        <input type="url" id="website" placeholder="Add website link">
+        <p>Image Link</p>
+        <input type="url" id="image" placeholder="Add image link">
+        <p>Gender</p>
+        <label><input type="radio" name="male-female" id="male" value="Male" >Male</label>
+        <label><input type="radio" name="male-female" id="female" value="Female">Female</label>
+        <p>Skill</p>
+        <input type="checkbox" id="html" class="checkbox"><label for="html">Html</label>
+        <input type="checkbox" id="css" class="checkbox"><label for="css">Css</label>
+        <input type="checkbox" id="java" class="checkbox"><label for="java">Java</label><br>
+        <button id="submit" type="submit">SUBMIT</button>
+        <button id="clear" type="reset">CLEAR</button>
+        </form>
+        <div class="line"></div>
+        <div class="op-box">
+            <div class="output">
+                <h2>STUDENT DETAILS</h2>
+                <div class="cardContainer" id="cardContainer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./rf.js"></script>
+</body>
+</html>
